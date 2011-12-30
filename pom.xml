@@ -24,7 +24,7 @@
 	<name>SocialSignIn Mixcloud Provider</name>
 	<properties>
 	   <org.socialsignin.provider.version>1.0.1-SNAPSHOT</org.socialsignin.provider.version>
-	   <org.springframework.social.mixcloud.version>1.0.0-SNAPSHOT</org.springframework.social.mixcloud.version>
+	   <org.springframework.social.mixcloud.version>1.0.1-SNAPSHOT</org.springframework.social.mixcloud.version>
 	   <org.socialsignin.spring.social.security.version>1.0.1-SNAPSHOT</org.socialsignin.spring.social.security.version>
 	   
 	</properties>
