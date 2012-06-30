@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.socialsignin.provider.mixcloud;
+package org.socialsignin.springsocial.security;
 
-import org.socialsignin.springframework.social.security.signin.SpringSocialSecurityConnectInterceptor;
+import org.socialsignin.springsocial.security.signin.SpringSocialSecurityConnectInterceptor;
 import org.springframework.social.mixcloud.api.Mixcloud;
 import org.springframework.stereotype.Component;
 

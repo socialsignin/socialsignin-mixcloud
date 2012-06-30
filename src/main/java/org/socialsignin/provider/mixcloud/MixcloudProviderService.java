@@ -6,11 +6,15 @@ import org.springframework.social.mixcloud.api.impl.MixcloudTemplate;
 import org.springframework.stereotype.Service;
 
 @Service
-public class MixcloudProviderService extends AbstractProviderService<Mixcloud> {
+public class MixcloudProviderService extends AbstractProviderService<Mixcloud,MixcloudProviderConfig> {
 
-	@Override
-	public Class<Mixcloud> getApiClass() {
-		return Mixcloud.class;
+	
+	public MixcloudProviderService() {
+		super();
+	}
+
+	public MixcloudProviderService(MixcloudProviderConfig providerConfig) {
+		super(providerConfig);
 	}
 
 	@Override
