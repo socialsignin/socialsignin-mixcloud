@@ -44,6 +44,10 @@ public class MixcloudProviderConfig extends AbstractProviderConfig<Mixcloud> {
 	@Value("${mixcloud.consumerSecret}")
 	private String mixcloudConsumerSecret;
 
+	public MixcloudProviderConfig() {
+		super();
+	}
+	
 	public MixcloudProviderConfig(String mixcloudConsumerKey,
 			Mixcloud authenticatedApi) {
 		super(authenticatedApi);
